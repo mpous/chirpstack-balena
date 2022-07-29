@@ -48,6 +48,17 @@ Once the Chirpstack application have been deployed properly on your device it's 
 ![chirpstack-balena](https://user-images.githubusercontent.com/173156/181758981-7a9ae1eb-6050-47b4-8239-f81ad764a02f.png)
 
 
+### Device Variables
+
+Set up these Device Variables to configure the region of the LoRaWAN stack.
+
+
+Variable Name | Value | Description | Default
+------------ | ------------- | ------------- | -------------
+**`NETWORK_SERVER__BAND__NAME`** | `STRING` | Defines the LoRa region  | `EU868`
+
+
+
 ### Access to the Chirpstack Network Server
 
 Type on your browser `http://<your local ip address>:8080` or use the balenaCloud Public URL using the port 8080.
